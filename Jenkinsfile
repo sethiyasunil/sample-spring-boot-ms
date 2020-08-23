@@ -30,7 +30,7 @@ pipeline {
   }
 post {
       always {
-       archiveArtifacts(artifacts: 'target/demoapp.jar', fingerprint: true)
+       archiveArtifacts(artifacts: 'target/sample-spring-ms-0.0.1-SNAPSHOT.jar', fingerprint: true)
       }
   }
 }
